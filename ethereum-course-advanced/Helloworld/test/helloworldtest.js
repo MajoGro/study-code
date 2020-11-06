@@ -12,6 +12,6 @@ contract("HelloWorld", async function(){
     await instance.setMessage("Testing message");
     let message = await instance.getMessage();
     assert( message === "Testing message"
-    , "Message should be the same as we set it to" );
+    , "Message should be the same as we set it to last" );
   });
 });
