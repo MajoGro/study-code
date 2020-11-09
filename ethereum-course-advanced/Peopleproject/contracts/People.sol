@@ -1,7 +1,7 @@
 import "./Ownable.sol";
-pragma solidity 0.5.12;
+pragma solidity 0.5.16;
 
-contract Peopleproject is Ownable{
+contract People is Ownable{
 
     struct Person {
       uint id;
