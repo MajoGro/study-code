@@ -53,7 +53,7 @@
   "sourceMap": "66:352:0:-;;;113:10;90:33;;;;;;;;;;;;;;;;;;;;66:352;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:352:0;;;;;;;",
   "deployedSourceMap": "66:352:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:352:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;127:36;;;:::i;:::-;;;;;;;;;;;;;;;;;;;90:33;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;313:103;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;313:103:0;;;;;;;;;;;;;;;;;:::i;:::-;;127:36;;;;:::o;90:33::-;;;;;;;;;;;;;:::o;313:103::-;225:5;;;;;;;;;;;211:19;;:10;:19;;;196:101;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;402:9;375:24;:36;;;;313:103;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.8.0;\n\ncontract Migrations {\n  address public owner = msg.sender;\n  uint public last_completed_migration;\n\n  modifier restricted() {\n    require(\n      msg.sender == owner,\n      \"This function is restricted to the contract's owner\"\n    );\n    _;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n}\n",
-  "sourcePath": "C:/Users/majo1/github/study-code/ethereum-course-advanced/Peopleproject/contracts/Migrations.sol",
+  "sourcePath": "C:\\Users\\majo1\\github\\study-code\\ethereum-course-advanced\\Peopleproject\\contracts\\Migrations.sol",
   "ast": {
     "absolutePath": "/C/Users/majo1/github/study-code/ethereum-course-advanced/Peopleproject/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -870,12 +870,13 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xBF5a1560465bc9d194db8008F462591Ad1846CeE",
-      "transactionHash": "0xeff90429faae9ecaa93f5bebeb24d0df722070d36bd76192a878f6d9ba02b63d"
+      "address": "0x98F8B5C4cc01342551148Fa457c736d79a93bD1E",
+      "transactionHash": "0x6a49da4abfcd8dc9fede95b31f29ce904c80007cc9f511b3b7a0aca85f2fe7ea"
     }
   },
-  "schemaVersion": "3.0.16",
-  "updatedAt": "2020-11-09T22:05:53.137Z",
+  "schemaVersion": "3.0.23",
+  "updatedAt": "2020-11-11T22:02:06.033Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
