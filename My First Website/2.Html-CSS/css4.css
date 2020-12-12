@@ -1,0 +1,21 @@
+body
+{
+  text-align: center;
+}
+
+header
+{
+  font-size: large;
+}
+h1
+{
+  font-style: oblique; text-decoration: underline; font-weight: 500; text-decoration-color: red;
+}
+main
+{
+  font-size: medium;
+}
+footer
+{
+  font-size: small;
+}
